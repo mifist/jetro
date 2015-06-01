@@ -295,7 +295,8 @@ h5 {
 }
 
 .jt-content .jt-slide-prev-img:hover,
-.jt-recent-works .jt-col-wrap:hover{
+.jt-recent-works .jt-col-wrap:hover,
+.jt-footer .jt-social li a:hover {
 	transform: scale(1.05);
 }
 
@@ -400,6 +401,9 @@ h5 {
 	}
 	.navbar .navbar-nav > li > a:hover {
 		color: #cacaca;
+	}
+	.navbar .navbar-brand {
+		padding-left: 10px;
 	}
 }
 @media (min-width: 960px) {
