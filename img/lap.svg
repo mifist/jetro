@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="25" height="20" viewBox="0 0 25 20">
+  <defs>
+    <style>
+
+      .cls-2 {
+        font-size: 72px;
+      }
+
+      .cls-3 {
+        fill: #e8663c;
+        font-size: 72px;
+        font-family: "Georgia";
+      }
+    </style>
+  </defs>
+  <text class="cls-2" x="-2px" y="54px"><tspan dy="NaNem" class="cls-3">“</tspan></text>
+</svg>
