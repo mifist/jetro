@@ -1,8 +1,15 @@
 @font-face {
 	font-family: "Bebas";
 	src: url("../fonts/bebas.ttf") format("truetype");
-	font-style: normal;
+	src: url('../fonts/bebas-webfont.eot');
+	src: url('../fonts/bebas-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/bebas-webfont.woff2') format('woff2'),
+	url('../fonts/bebas-webfont.woff') format('woff'),
+	url('../fonts/bebas-webfont.ttf') format('truetype'),
+	url('../fonts/bebas-webfont.svg#bebasregular') format('svg');
 	font-weight: normal;
+	font-style: normal;
+
 }
 @font-face {
 	font-family: 'Helvetica Neue Light';
@@ -14,6 +21,18 @@
 	url('../fonts/helveticaneuecyr-light-webfont.svg#helveticaneuecyrlight') format('svg');
 	font-weight: 400;
 	font-style: normal;
+}
+@font-face {
+	font-family: 'Helvetica Neue Light Italic';
+	src: url('../fonts/helveticaneuecyr-lightitalic-webfont.eot');
+	src: url('../fonts/helveticaneuecyr-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/helveticaneuecyr-lightitalic-webfont.woff2') format('woff2'),
+	url('../fonts/helveticaneuecyr-lightitalic-webfont.woff') format('woff'),
+	url('../fonts/helveticaneuecyr-lightitalic-webfont.ttf') format('truetype'),
+	url('../fonts/helveticaneuecyr-lightitalic-webfont.svg#helveticaneuecyrlight_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
 }
 @font-face {
 	font-family: 'Helvetica Neue Roman';
@@ -46,12 +65,12 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	transform: translate(0, 0);
-	font-size: 32px;
+	font-size: 34px;
 	color: #e8663c;
 	float: left;
 	height: 46px;
 	line-height: 46px;
-	margin-right: 26px;
+	margin-right: 37px;
 }
 .font.font-cogwheel:before {
 	content: "a";
@@ -163,13 +182,15 @@ h6 {
 	color: #cacaca;
 }
 .navbar .nav > li > a:hover,
-.navbar .nav > li > a:focus {
+.navbar .nav > li > a:focus,
+.navbar .nav .home,
+.navbar .nav .about,
+.navbar .nav .blog,
+.navbar .nav .portfolio,
+.navbar .nav .contact {
 	text-decoration: none;
 	color: #e8663c;
 	background: none;
-}
-.navbar .nav > li >a:focus {
-	color:#f2ae9c;
 }
 .navbar .navbar-brand {
 	padding: 0;
@@ -178,14 +199,15 @@ h6 {
 	height: 78px;
 	color: #e8603c;
 }
-.navbar-brand span {
-	color:#f2ae9c;
-}
+.navbar-brand span,
+.navbar .nav .about span,
+.navbar .nav .contact span,
 .navbar .navbar-brand:hover,
 .navbar .nav > li > a:hover span {
 	color:#f2ae9c;
 }
-.navbar .navbar-brand:hover span{
+
+.navbar .navbar-brand:hover span {
 	color: #e8603c;
 }
 .navbar .navbar-nav{
@@ -261,10 +283,13 @@ h6 {
 	margin-top: 20px;
 }
 .jt-content-text .jt-head {
-	margin-top: 33px;
-	margin-bottom: 31px;
+	margin-top: 37px;
+	margin-bottom: 35px;
 	height: 46px;
 	line-height: 46px;
+}
+.jt-content-text > .row  p {
+	padding-right: 23px;
 }
 .jt-content-text .btn-default,
 .jt-content-text .open>.dropdown-toggle.btn-default,
@@ -317,8 +342,8 @@ input[type="submit"]:active, button:active,
 }
 /*---SECTIONS RECENT WORKS---*/
 .jt-recent-works {
-	padding-top: 39px;
-	padding-bottom: 48px;
+	padding-top: 28px;
+	padding-bottom: 26px;
 }
 .jt-recent-name {
 	background: url("../img/line1.png") 50% 50% repeat-x;
@@ -340,7 +365,7 @@ input[type="submit"]:active, button:active,
 	margin: 0;
 }
 .jt-col-wrap {
-	margin-top: 20px;
+	margin-top: 22px;
 }
 .jt-col-wrap a img {
 	width: 100%;
@@ -353,12 +378,27 @@ input[type="submit"]:active, button:active,
 .jt-footer .jt-row-footer {
 	max-width: 940px;
 	background: #e8663c;
-	padding: 38px 46px 32px 36px;
+	padding: 36px 46px 32px 36px;
 	color: #ffffff;
 }
+.jt-footer .jt-row-footer .foot-row-0 {
+	padding-right: 15px;
+}
+.jt-footer .jt-row-footer .foot-row-1 {
+	padding-left: 43px;
+	padding-right: 17px;
+}
+.jt-footer .jt-row-footer .foot-row-2 {
+	padding-left: 36px;
+}
+.jt-footer .jt-row-footer .row h3 {
+	padding: 0 0 25px 0;
+}
 .jt-footer .jt-row-footer span,
-.jt-footer .jt-row-footer span a {
+.jt-footer .jt-row-footer a {
+	font-family: "Helvetica Neue Roman", Arial, sans-serif;
 	color: #f3b29d;
+	text-transform: lowercase;
 }
 .jt-footer .jt-social {
 	padding: 0;
@@ -371,7 +411,7 @@ input[type="submit"]:active, button:active,
 	float: left;
 	display: inline-block;
 	padding: 4px 0 4px 25px;
-	margin-right: 5px;
+	margin-right: 1px;
 	text-decoration: none;
 	color: #444;
 	width: 30px;
@@ -397,18 +437,39 @@ input[type="submit"]:active, button:active,
 .jt-main-container {
 	padding-right: 30px;
 }
+.jt-about-content .jt-letter:first-letter {
+	color: #e8603c;
+	font-size: 34px;
+	float: left;
+	line-height: 1;
+	padding: 0;
+	padding-right: 5px;
+	margin: 0;
+	font-weight: bold;
+}
+.jt-about-content .jt-letter {
+	padding-top: 5px;
+	margin-bottom: 30px;
+}
+.jt-about-row-marg {
+	padding-top: 7px;
+	padding-bottom: 18px;
+}
 .jt-about-content p,
 .jt-about-content blockquote {
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	line-height: 18px;
 }
 .jt-about-content blockquote {
+	font-family: 'Helvetica Neue Light Italic';
 	padding: 0 0 0 20px;
 	margin-left: 50px;
+	margin-bottom: 25px;
 	font-size: 12px;
 	border-left: 10px solid #e8663c;
 }
 .jt-about-content .jt-mike {
+	max-width: 100%;
 	margin-bottom: 25px;
 	margin-right: 25px;
 	-webkit-box-shadow: 0 0 0 1px #cccccc;
@@ -417,11 +478,13 @@ input[type="submit"]:active, button:active,
 	border: 2px solid #ffffff;
 }
 .jt-about-content .alert {
+	font-family: 'Helvetica Neue Light Italic';
 	padding: 20px 10px;
 	min-height: 61px;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
+	margin-bottom: 19px;
 }
 .jt-about-content .alert-success {
 	background-color: #effeb9;
@@ -444,16 +507,18 @@ input[type="submit"]:active, button:active,
 	  color: #4d8fcb;  
 }
 .jt-aside-container {
-	margin-left: 25px;
+	margin-left: 2px;
 }
 .jt-aside-container h4 {
-	margin-bottom: 15px;
+	font-size: 14px;
+	margin-bottom: 9px;
 }
 .categories-list {
-	padding: 0 0 25px 0;
+	padding: 0 0 18px 0;
 }
 .categories-list > li {
 	list-style: none;
+	line-height: 16px;
 }
 .categories-list > li > a,
 .jt-post-web > a {
@@ -489,7 +554,7 @@ input[type="submit"]:active, button:active,
 	position: absolute;
 	width: 75px;
 	height: 75px;
-	left: -12.1%;
+	left: -12.4%;
 }
 .jt-post-wordpress:before {
 	background:url("../img/container1.jpg");
@@ -525,7 +590,8 @@ input[type="submit"]:active, button:active,
 	width: 100%;
 }
 .jt-row-post {
-	padding: 25px 0;
+	padding: 19px 0;
+	padding-bottom: 46px;
 }
 .jt-post-quote {
 	padding-bottom: 1px;
@@ -591,17 +657,22 @@ input[type="submit"]:active, button:active,
 	background: #e8603c;
 	color: #fff;
 }
-
+.jt-col-date {
+	padding-right: 0;
+}
+.jt-col-post {
+	padding-left: 41px;
+}
 /*---------PAGE PORTFOLIO--------*/
 .jt-portfolio-content {
-	padding-top: 35px;
+	padding-top: 32px;
 	padding-bottom: 45px;
 }
 .jt-portfolio-content .navbar-nav {
-	margin-bottom: 17px;
+	margin-bottom: 9px;
 }
 .jt-portfolio-content .navbar-nav>li>a {
-	padding: 10px 15px;
+	padding: 10px 11px;
 	background: none;
 	color: #b9b9b9;
 }
@@ -609,6 +680,9 @@ input[type="submit"]:active, button:active,
 .jt-portfolio-content .navbar-nav>li>a:focus {
 	color: #ffffff;
 	background: #e8663c;
+}
+.jt-portfolio-row {
+	padding-bottom: 18px;
 }
 .jt-portfolio-content .jt-recent-works {
 	padding: 0;
@@ -655,11 +729,17 @@ input[type="submit"]:active, button:active,
 }
 /*--------PAGE CONTACT US---------*/
 .jt-row-conact {
-	margin-top: 36px;
+	margin-top: 51px;
 	margin-bottom: 17px;
 }
 .jt-row-conact  p > span {
 	color: #e8603c;
+}
+.jt-form-pl {
+	padding-left: 36px;
+}
+.jt-map {
+	padding-right: 25px;
 }
 .form-horizontal {
 	margin-bottom: 10px;
@@ -668,13 +748,23 @@ input[type="submit"]:active, button:active,
 .form-horizontal textarea {
 	width: 100%;
 }
+.form-sm-margr {
+	margin-right: 5px;
+}
 .form-horizontal .jt-form {
 	border: 1px solid #e8603c;
 	color: #e8603c;
-	padding: 10px;
+	padding: 5px 13px;
 	font: 10px "Bebas",Arial,Helvetica, sans-serif;
 	line-height: 2.3;
 	margin-bottom: 10px;
+}
+.form-horizontal .jt-textarea {
+	margin-bottom: 0;
+}
+.form-horizontal button {
+	border-radius: inherit;
+	font-family: 'Bebas', sans-serif;
 }
 input[type="text"]::-webkit-input-placeholder{
 	color: #e8603c;
@@ -751,5 +841,22 @@ textarea:-ms-input-placeholder {
 	}
 	.carousel-caption {
 		left: 75px;
+	}
+	.jt-footer .jt-row-footer .foot-row-0,
+	.jt-footer .jt-row-footer .foot-row-1,
+	.jt-footer .jt-row-footer .foot-row-2 {
+		padding: 20px 0 0 0;
+	}
+	.jt-form-pl {
+		padding-left: 0;
+	}
+}
+@media (max-width: 1130px) {
+	.jt-post-wordpress:before,
+	.jt-post-typography:before,
+	.jt-post-video:before,
+	.jt-post-quote:before,
+	.jt-post-web:before {
+		background: none;
 	}
 }
