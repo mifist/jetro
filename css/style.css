@@ -70,7 +70,7 @@
 	float: left;
 	height: 46px;
 	line-height: 46px;
-	margin-right: 37px;
+	padding-right: 37px;
 }
 .font.font-cogwheel:before {
 	content: "a";
