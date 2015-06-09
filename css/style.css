@@ -60,7 +60,7 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 	float: left;
 	height: 46px;
 	line-height: 46px;
-	margin-right: 26px;
+	padding-right: 26px;
 }
 .font.font-cogwheel:before {
 	content: "a";
