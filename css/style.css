@@ -352,6 +352,7 @@ input[type="submit"]:active, button:active,
 .jt-recent-name > span {
 	background: #ffffff;
 	padding-right: 10px;
+	padding-bottom: 1px;
 }
 .jt-recent-works .img-wrapp {
 	border-left: 1px solid #dbdbdb;
