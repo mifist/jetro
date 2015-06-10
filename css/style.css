@@ -358,7 +358,7 @@ input[type="submit"]:active, button:active,
 	border-left: 1px solid #dbdbdb;
 	border-bottom: 1px solid #dbdbdb;
 	border-right: 1px solid #dbdbdb;
-	padding: 13px 0 12px 11px;
+	padding: 13px 11px 12px 11px;
 }
 .img-wrapp > p {
 	font: 11px 'Bebas', sans-serif;
@@ -366,7 +366,7 @@ input[type="submit"]:active, button:active,
 	margin: 0;
 }
 .jt-col-wrap {
-	margin-top: 22px;
+	padding-top: 22px;
 }
 .jt-col-wrap a img {
 	width: 100%;
@@ -597,6 +597,15 @@ input[type="submit"]:active, button:active,
 .jt-post-quote {
 	padding-bottom: 1px;
 }
+.jt-col-date {
+	padding-right: 0;
+}
+.jt-col-post {
+	padding-left: 41px;
+}
+.jt-post-padd {
+	padding-right: 39px;
+}
 .jt-post-quote blockquote {
 	padding: 20px 30px 20px 35px;
 	background: #f6f6f6;
@@ -657,12 +666,6 @@ input[type="submit"]:active, button:active,
 .pagination > li > span:active {
 	background: #e8603c;
 	color: #fff;
-}
-.jt-col-date {
-	padding-right: 0;
-}
-.jt-col-post {
-	padding-left: 41px;
 }
 /*---------PAGE PORTFOLIO--------*/
 .jt-portfolio-content {
@@ -794,13 +797,13 @@ textarea:-ms-input-placeholder {
 	color:#e8603c;
 }
 /*------@MEDIA---------*/
-@media (max-width: 545px) {
-	.carousel-caption {
-		display: none;
-	}
-	.jt-about-content blockquote,
-	.jt-aside-container {
-		margin-left: 0;
+@media (max-width: 1130px) {
+	.jt-post-wordpress:before,
+	.jt-post-typography:before,
+	.jt-post-video:before,
+	.jt-post-quote:before,
+	.jt-post-web:before {
+		background: none;
 	}
 }
 @media (min-width: 768px) {
@@ -851,13 +854,39 @@ textarea:-ms-input-placeholder {
 	.jt-form-pl {
 		padding-left: 0;
 	}
+	.jt-main-container {
+		padding-right: 0;
+	}
+	.jt-col-post {
+		padding-left: 10px;
+	}
+	.jt-post-padd {
+		padding-right: 10px;
+	}
+	.jt-post-date {
+		padding-right: 10px;
+		float: left;
+	}
+	.jt-col-date h2 {
+		margin: 3px 0 0 0;
+	}
+	.form-horizontal button {
+		float: right !important;
+	}
 }
-@media (max-width: 1130px) {
-	.jt-post-wordpress:before,
-	.jt-post-typography:before,
-	.jt-post-video:before,
-	.jt-post-quote:before,
-	.jt-post-web:before {
-		background: none;
+@media (max-width: 545px) {
+	.carousel-caption {
+		display: none;
+	}
+	.jt-about-content blockquote,
+	.jt-aside-container {
+		margin-left: 0;
+	}
+	.jt-post-date {
+		padding-right: 10px;
+		float: none;
+	}
+	.jt-col-date h2 {
+		margin: 0 0 10px 0;
 	}
 }
