@@ -457,7 +457,8 @@ input[type="submit"]:active, button:active,
 	padding-bottom: 18px;
 }
 .jt-about-content p,
-.jt-about-content blockquote {
+.jt-about-content blockquote,
+.jt-aside-container p {
 	margin-bottom: 20px;
 	line-height: 18px;
 }

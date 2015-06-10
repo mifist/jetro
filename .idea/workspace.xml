@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e337494-b0a6-4912-a362-88092a0f1e89" name="Default" comment="" />
+    <list default="true" id="3e337494-b0a6-4912-a362-88092a0f1e89" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <list id="7d069746-f84f-4341-a39f-1c73c7720889" name="New changelist" comment="">
       <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\bootstrap\config.json" afterPath="" />
       <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\bootstrap\css\bootstrap.css" afterPath="" />
@@ -13,32 +15,6 @@
       <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
       <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\bootstrap\js\bootstrap.js" afterPath="" />
       <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\br.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\cn.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\cz.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\de.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\ee.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\en.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\es.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\fa.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\fi.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\fr.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\hu.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\id.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\it.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\lt.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\nl.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\pe.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\pl.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\pt.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\ro.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\ru.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\si.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\lang\ua.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\outdatedbrowser.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\outdatedbrowser.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\outdatedbrowser.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\outdatedbrowser\outdatedbrowser.min.js" afterPath="" />
       <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\psd\about.png" afterPath="" />
       <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\psd\about.psd" afterPath="" />
       <change type="DELETED" beforePath="D:\OneDrive\WEB\BeetRootAcademy\jetro\psd\blog-assets\errors-MifiSt-PC.txt" afterPath="" />
@@ -90,7 +66,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5730" max-vertical-offset="14756">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5967" max-vertical-offset="15249">
               <caret line="351" column="22" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="22" />
               <folding />
             </state>
@@ -100,7 +76,7 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5061296" vertical-offset="0" max-vertical-offset="3502">
+            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="3502">
               <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding />
             </state>
@@ -221,7 +197,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26865673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -262,6 +238,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5967" max-vertical-offset="15249">
+          <caret line="351" column="22" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3094">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14756">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -278,7 +270,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5061296" vertical-offset="0" max-vertical-offset="3502">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="3502">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
