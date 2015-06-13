@@ -183,11 +183,8 @@ h6 {
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus,
-.navbar .nav .home,
-.navbar .nav .about,
-.navbar .nav .blog,
-.navbar .nav .portfolio,
-.navbar .nav .contact {
+.navbar .nav .active,
+.navbar .nav .current-menu-item {
 	text-decoration: none;
 	color: #e8663c;
 	background: none;
@@ -200,8 +197,7 @@ h6 {
 	color: #e8603c;
 }
 .navbar-brand span,
-.navbar .nav .about span,
-.navbar .nav .contact span,
+.navbar .nav .active span,
 .navbar .navbar-brand:hover,
 .navbar .nav > li > a:hover span {
 	color:#f2ae9c;
@@ -667,6 +663,9 @@ input[type="submit"]:active, button:active,
 .pagination > li > span:active {
 	background: #e8603c;
 	color: #fff;
+}
+.jt-post-top  h4 a {
+	color: #e8603c;
 }
 /*---------PAGE PORTFOLIO--------*/
 .jt-portfolio-content {
