@@ -89,6 +89,10 @@
 body {
 	background: url("../img/bgi.png") repeat;
 }
+img {
+	max-width: 100%;
+	height: auto;
+}
 a {
 	text-decoration: none;
 }
@@ -495,14 +499,14 @@ input[type="submit"]:active, button:active,
 	color: #eb5439;
 }
 .jt-about-content .alert-warning {
-	 background-color: #ffe9ad;
-	 border-color: #fab418;
-	 color: #fab418;
+	background-color: #ffe9ad;
+	border-color: #fab418;
+	color: #fab418;
 }
 .jt-about-content .alert-info {
-	  background-color: #d1e4f3;
-	  border-color: #4d8fcb;
-	  color: #4d8fcb;  
+	background-color: #d1e4f3;
+	border-color: #4d8fcb;
+	color: #4d8fcb;
 }
 .jt-aside-container {
 	margin-left: 2px;
