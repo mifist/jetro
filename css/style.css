@@ -751,6 +751,7 @@ input[type="submit"]:active, button:active,
 .form-horizontal input,
 .form-horizontal textarea {
 	width: 100%;
+	outline-color: #e8603c;
 }
 .form-sm-margr {
 	margin-right: 5px;
